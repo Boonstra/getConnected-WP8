@@ -28,7 +28,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock HorizontalAlignment="Left" Margin="62,294,0,0" TextWrapping="Wrap" Text="All the other sheit" VerticalAlignment="Top" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Left" Margin="62,294,0,0" TextWrapping="Wrap" Text="date, time, etc." VerticalAlignment="Top" FontSize="36"/>
 
         </Grid>
         <TextBox HorizontalAlignment="Left" Height="72" Margin="24,46,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Location" VerticalAlignment="Top" Width="456"/>
