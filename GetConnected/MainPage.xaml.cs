@@ -27,6 +27,11 @@ namespace GetConnected
             NavigationService.Navigate(new Uri("/TransportPage.xaml", UriKind.Relative));
         }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/MapPage.xaml", UriKind.Relative));
+        }
+
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{

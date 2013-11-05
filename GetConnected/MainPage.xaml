@@ -48,7 +48,7 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Button Content="Transport" Margin="49,147,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Button_Click"/>
-            <Button Content="Map" Margin="49,192,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345"/>
+            <Button Content="Map" Margin="49,192,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Button_Click_1"/>
             <Button Content="Marketplace" Margin="49,237,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345"/>
             <Button Content="Support" Margin="49,283,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345"/>
             <Button Content="Help" Margin="49,329,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345"/>
