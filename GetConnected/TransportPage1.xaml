@@ -1,5 +1,5 @@
 ﻿<phone:PhoneApplicationPage
-    x:Class="GetConnected.Page1"
+    x:Class="GetConnected.Page3"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -22,19 +22,21 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="Get Connected" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="GetConnected" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock Text="Transport" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock HorizontalAlignment="Left" Margin="62,294,0,0" TextWrapping="Wrap" Text="date, time, etc." VerticalAlignment="Top" FontSize="36"/>
 
+            <TextBlock TextWrapping="Wrap" Text="I would like to use the following transportation options:" Margin="40,54,40,432" FontWeight="Bold" FontSize="24"/>
+            <CheckBox Name="mode_bus" IsChecked="true" Margin="40,180,186,354" Content="Bus" />
+            <CheckBox Name="mode_train" IsChecked="true" Margin="40,258,171,276" Content="Train" />
+            <CheckBox Name="mode_taxiother" IsChecked="true" Margin="40,336,206,198" Content="Taxi/other" />
+            
+            <Button Margin="308,512,0,10" Click="nextPage" Content="Next" />
+            <Button Margin="10,512,298,10" Click="goBack" Content="Back" />
         </Grid>
-        <TextBox HorizontalAlignment="Left" Height="72" Margin="24,46,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Location" VerticalAlignment="Top" Width="456"/>
-        <TextBlock HorizontalAlignment="Left" Margin="37,175,0,0" TextWrapping="Wrap" Text="From" VerticalAlignment="Top" Grid.RowSpan="2"/>
-        <TextBox HorizontalAlignment="Left" Height="72" Margin="24,145,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Location" VerticalAlignment="Top" Width="456"/>
-        <TextBlock HorizontalAlignment="Left" Margin="37,118,0,0" TextWrapping="Wrap" Text="To" VerticalAlignment="Top" Grid.Row="1"/>
     </Grid>
 
 </phone:PhoneApplicationPage>

@@ -24,7 +24,7 @@ namespace GetConnected
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/TransportPage.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/TransportPage1.xaml", UriKind.Relative));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
