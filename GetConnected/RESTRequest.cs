@@ -29,13 +29,14 @@ namespace GetConnected
 
         public void doRequest()
         {
+            url += "?";
+            foreach (KeyValuePair<string, string> pair in parameters)
+            {
+                url += pair.Key+"="+pair.Value+"&";
+            }
+            url.Remove(url.Length-1);
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "GET";
-
-            foreach(KeyValuePair<string, string> pair in parameters)
-            {
-                request.Headers[pair.Key] = pair.Value;
-            }
 
             request.BeginGetResponse(Response_Completed, request);
         }
