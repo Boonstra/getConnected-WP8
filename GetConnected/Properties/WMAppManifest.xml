@@ -2,7 +2,7 @@
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <App xmlns="" ProductID="{737d19e8-78c0-4957-b7d0-b19cdf9dd21f}" Title="GetConnected" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="GetConnected author" Description="Sample description" Publisher="GetConnected" PublisherID="{c27fd748-a75c-4049-816e-6a9a01b83e81}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <IconPath IsRelative="true" IsResource="false">Resources\gc_icon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
