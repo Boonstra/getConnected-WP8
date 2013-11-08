@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="nl-NL" />
+  </Languages>
   <App xmlns="" ProductID="{737d19e8-78c0-4957-b7d0-b19cdf9dd21f}" Title="GetConnected" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="GetConnected author" Description="Sample description" Publisher="GetConnected" PublisherID="{c27fd748-a75c-4049-816e-6a9a01b83e81}">
     <IconPath IsRelative="true" IsResource="false">Resources\gc_icon.png</IconPath>
     <Capabilities>
@@ -21,16 +24,11 @@
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
           <Title>GetConnected</Title>
-          <BackContent>
-          </BackContent>
-          <BackBackgroundImageURI>
-          </BackBackgroundImageURI>
-          <BackTitle>
-          </BackTitle>
-          <DeviceLockImageURI>
-          </DeviceLockImageURI>
-          <HasLarge>
-          </HasLarge>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI></DeviceLockImageURI>
+          <HasLarge></HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>
