@@ -15,6 +15,7 @@ namespace GetConnected
 
         public string url;
         private Dictionary<string,string> parameters;
+        public string result;
 
         public RESTRequest(string url)
         {
@@ -29,13 +30,14 @@ namespace GetConnected
 
         public void doRequest()
         {
+            url += "?";
+            foreach (KeyValuePair<string, string> pair in parameters)
+            {
+                url += pair.Key+"="+pair.Value+"&";
+            }
+            url.Remove(url.Length-1);
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "GET";
-
-            foreach(KeyValuePair<string, string> pair in parameters)
-            {
-                request.Headers[pair.Key] = pair.Value;
-            }
 
             request.BeginGetResponse(Response_Completed, request);
         }
@@ -47,8 +49,8 @@ namespace GetConnected
 
             using (StreamReader streamReader = new StreamReader(response.GetResponseStream()))
             {
-                string results = streamReader.ReadToEnd();
-                System.Diagnostics.Debug.WriteLine(results);
+                this.result = streamReader.ReadToEnd();
+                System.Diagnostics.Debug.WriteLine(this.result);
             }
         }
     }

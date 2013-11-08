@@ -41,17 +41,17 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="Get Connected" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0" Foreground="Black"/>
-            <TextBlock Text="Main Menu" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="Black"/>
+            <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0" Foreground="Black"/>
+            <TextBlock Text="{Binding LocalizedResources.MainMenuTitle, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="Black"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Button Content="Transport" Margin="49,147,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Button_Click"/>
-            <Button Content="Map" Margin="49,192,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Button_Click_1"/>
-            <Button Content="Marketplace" Margin="49,237,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345"/>
-            <Button Content="Support" Margin="49,283,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345"/>
-            <Button Content="Help" Margin="49,329,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Button_Click_2"/>
+            <Button Content="{Binding LocalizedResources.TransportButton, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="49,147,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Button_Click"/>
+            <Button Content="{Binding LocalizedResources.MapButton, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="49,192,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Button_Click_1"/>
+            <Button Content="{Binding LocalizedResources.MarketplaceButton, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="49,237,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345"/>
+            <Button Content="{Binding LocalizedResources.SupportButton, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="49,283,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345"/>
+            <Button Content="{Binding LocalizedResources.HelpButton, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="49,329,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Button_Click_2"/>
 
         </Grid>
 

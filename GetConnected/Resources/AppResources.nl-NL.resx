@@ -122,7 +122,7 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>nl-NL</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
@@ -135,34 +135,34 @@
     <value>Menu Item</value>
   </data>
   <data name="Arrival" xml:space="preserve">
-    <value>Arrival</value>
+    <value>Aankomst</value>
   </data>
   <data name="Bus" xml:space="preserve">
     <value>Bus</value>
   </data>
   <data name="ButtonBack" xml:space="preserve">
-    <value>Back</value>
+    <value>Terug</value>
   </data>
   <data name="ButtonNext" xml:space="preserve">
-    <value>Next</value>
+    <value>Volgende</value>
   </data>
   <data name="Date" xml:space="preserve">
-    <value>Date</value>
+    <value>Datum</value>
   </data>
   <data name="Departure" xml:space="preserve">
-    <value>Departure</value>
+    <value>Vertrek</value>
   </data>
   <data name="From" xml:space="preserve">
-    <value>From</value>
+    <value>Van</value>
   </data>
   <data name="HelpButton" xml:space="preserve">
     <value>Help</value>
   </data>
   <data name="Location" xml:space="preserve">
-    <value>Location</value>
+    <value>Lacatie</value>
   </data>
   <data name="MainMenuTitle" xml:space="preserve">
-    <value>Main Menu</value>
+    <value>Hoofdmenu</value>
   </data>
   <data name="MapButton" xml:space="preserve">
     <value>Map</value>
@@ -171,28 +171,28 @@
     <value>Map</value>
   </data>
   <data name="MarketplaceButton" xml:space="preserve">
-    <value>Marketplace</value>
+    <value>Marktplaats</value>
   </data>
   <data name="SupportButton" xml:space="preserve">
     <value>Support</value>
   </data>
   <data name="TaxiAndOther" xml:space="preserve">
-    <value>Taxi/Other</value>
+    <value>Taxi/Anders</value>
   </data>
   <data name="Time" xml:space="preserve">
-    <value>Time</value>
+    <value>Tijd</value>
   </data>
   <data name="To" xml:space="preserve">
-    <value>To</value>
+    <value>Naar</value>
   </data>
   <data name="Train" xml:space="preserve">
-    <value>Train</value>
+    <value>Trein</value>
   </data>
   <data name="TransportButton" xml:space="preserve">
     <value>Transport</value>
   </data>
   <data name="TransportDescription" xml:space="preserve">
-    <value>I would like to use the following transportation options:</value>
+    <value>Van de volgende vervoersmogelijkheden wil ik gebruik maken:</value>
   </data>
   <data name="TransportPageTitle" xml:space="preserve">
     <value>Transport</value>

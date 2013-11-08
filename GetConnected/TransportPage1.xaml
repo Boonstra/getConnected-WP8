@@ -22,20 +22,20 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="GetConnected" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="Transport" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="{Binding LocalizedResources.ApplicationTitle, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="{Binding LocalizedResources.TransportPageTitle, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
 
-            <TextBlock TextWrapping="Wrap" Text="I would like to use the following transportation options:" Margin="40,54,40,432" FontWeight="Bold" FontSize="24"/>
-            <CheckBox Name="mode_bus" IsChecked="true" Margin="40,180,186,354" Content="Bus" />
-            <CheckBox Name="mode_train" IsChecked="true" Margin="40,258,171,276" Content="Train" />
-            <CheckBox Name="mode_taxiother" IsChecked="true" Margin="40,336,206,198" Content="Taxi/other" />
+            <TextBlock TextWrapping="Wrap" Text="{Binding LocalizedResources.TransportDescription, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="40,54,40,432" FontWeight="Bold" FontSize="24"/>
+            <CheckBox Name="mode_bus" IsChecked="true" Margin="40,180,186,354" Content="{Binding LocalizedResources.Bus, Mode=OneWay, Source={StaticResource LocalizedStrings}}" />
+            <CheckBox Name="mode_train" IsChecked="true" Margin="40,258,171,276" Content="{Binding LocalizedResources.Train, Mode=OneWay, Source={StaticResource LocalizedStrings}}" />
+            <CheckBox Name="mode_taxiother" IsChecked="true" Margin="40,336,206,198" Content="{Binding LocalizedResources.TaxiAndOther, Mode=OneWay, Source={StaticResource LocalizedStrings}}" />
             
-            <Button Margin="308,512,0,10" Click="nextPage" Content="Next" />
-            <Button Margin="10,512,298,10" Click="goBack" Content="Back" />
+            <Button Margin="308,512,0,10" Click="nextPage" Content="{Binding LocalizedResources.ButtonNext, Mode=OneWay, Source={StaticResource LocalizedStrings}}" />
+            <Button Margin="10,512,298,10" Click="goBack" Content="{Binding LocalizedResources.ButtonBack, Mode=OneWay, Source={StaticResource LocalizedStrings}}" />
         </Grid>
     </Grid>
 
