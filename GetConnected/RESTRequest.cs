@@ -15,6 +15,7 @@ namespace GetConnected
 
         public string url;
         private Dictionary<string,string> parameters;
+        public string result;
 
         public RESTRequest(string url)
         {
@@ -48,8 +49,8 @@ namespace GetConnected
 
             using (StreamReader streamReader = new StreamReader(response.GetResponseStream()))
             {
-                string results = streamReader.ReadToEnd();
-                System.Diagnostics.Debug.WriteLine(results);
+                this.result = streamReader.ReadToEnd();
+                System.Diagnostics.Debug.WriteLine(this.result);
             }
         }
     }
