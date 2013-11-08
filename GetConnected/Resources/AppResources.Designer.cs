@@ -124,6 +124,15 @@ namespace GetConnected.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create ride.
+        /// </summary>
+        public static string createRideButton {
+            get {
+                return ResourceManager.GetString("createRideButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date.
         /// </summary>
         public static string Date {
@@ -205,6 +214,15 @@ namespace GetConnected.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Request ride.
+        /// </summary>
+        public static string requestRideButton {
+            get {
+                return ResourceManager.GetString("requestRideButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LeftToRight.
         /// </summary>
         public static string ResourceFlowDirection {
@@ -219,6 +237,24 @@ namespace GetConnected.Resources {
         public static string ResourceLanguage {
             get {
                 return ResourceManager.GetString("ResourceLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Offered rides.
+        /// </summary>
+        public static string showOfferedRidesButton {
+            get {
+                return ResourceManager.GetString("showOfferedRidesButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unrated rides.
+        /// </summary>
+        public static string showUnratedRidesButton {
+            get {
+                return ResourceManager.GetString("showUnratedRidesButton", resourceCulture);
             }
         }
         

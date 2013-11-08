@@ -197,4 +197,16 @@
   <data name="TransportPageTitle" xml:space="preserve">
     <value>Transport</value>
   </data>
+  <data name="createRideButton" xml:space="preserve">
+    <value>Maak nieuwe rit aan</value>
+  </data>
+  <data name="requestRideButton" xml:space="preserve">
+    <value>Vraag rit aan</value>
+  </data>
+  <data name="showOfferedRidesButton" xml:space="preserve">
+    <value>Aangevraagde ritten</value>
+  </data>
+  <data name="showUnratedRidesButton" xml:space="preserve">
+    <value>Onbeoordeelde ritten</value>
+  </data>
 </root>

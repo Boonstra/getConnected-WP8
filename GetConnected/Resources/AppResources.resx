@@ -197,4 +197,16 @@
   <data name="TransportPageTitle" xml:space="preserve">
     <value>Transport</value>
   </data>
+  <data name="createRideButton" xml:space="preserve">
+    <value>Create ride</value>
+  </data>
+  <data name="requestRideButton" xml:space="preserve">
+    <value>Request ride</value>
+  </data>
+  <data name="showOfferedRidesButton" xml:space="preserve">
+    <value>Offered rides</value>
+  </data>
+  <data name="showUnratedRidesButton" xml:space="preserve">
+    <value>Unrated rides</value>
+  </data>
 </root>
