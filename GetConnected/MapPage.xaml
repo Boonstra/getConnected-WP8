@@ -30,7 +30,7 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
 
-            <maps:Map HorizontalAlignment="Left" VerticalAlignment="Top" Height="607" Width="456"/>
+            <maps:Map x:Name="map" HorizontalAlignment="Left" VerticalAlignment="Top" Height="607" Width="456"/>
 
         </Grid>
     </Grid>
