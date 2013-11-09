@@ -96,6 +96,15 @@
     <Compile Include="Marketplace.xaml.cs">
       <DependentUpon>Marketplace.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CreateRide.xaml.cs">
+      <DependentUpon>CreateRide.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OfferedRides.xaml.cs">
+      <DependentUpon>OfferedRides.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UnratedRides.xaml.cs">
+      <DependentUpon>UnratedRides.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RESTRequest.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="MainPage.xaml.cs">
@@ -133,6 +142,18 @@
     <Page Include="Marketplace.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CreateRide.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OfferedRides.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UnratedRides.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TransportPage1.xaml">
       <SubType>Designer</SubType>

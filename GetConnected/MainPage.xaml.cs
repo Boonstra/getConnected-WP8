@@ -37,6 +37,11 @@ namespace GetConnected
             new RESTRequest("");
         }
 
+        private void MarketplaceButton(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Marketplace.xaml", UriKind.Relative));
+        }
+
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{
