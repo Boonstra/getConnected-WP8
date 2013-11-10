@@ -17,18 +17,44 @@
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="577*"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
+        <Rectangle HorizontalAlignment="Left" Height="28" Margin="0,254,0,0" Stroke="Black" VerticalAlignment="Top" Width="480" Fill="#FF36363A" Grid.RowSpan="2"/>
+
+        <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="Get Connected" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}">
+            	<Run Text="Offered Rides"/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
+        <Grid x:Name="ContentPanel" Margin="14,151,10,10" Grid.RowSpan="3">
+        	<Grid HorizontalAlignment="Left" Height="125" Margin="-10,104,0,0" VerticalAlignment="Top" Width="456">
+        		<TextBlock HorizontalAlignment="Left" Margin="125,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top">
+        			<Run Text="Aan"/>
+        			<Run Text="k"/>
+        			<Run Text="omsttijd"/>
+        		</TextBlock>
+        		<TextBlock HorizontalAlignment="Left" Margin="262,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Van"/>
+        		<TextBlock HorizontalAlignment="Left" Margin="370,0,0,98" TextWrapping="Wrap" VerticalAlignment="Bottom" Text="Naar" RenderTransformOrigin="0.5,0.515"/>
+        		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Vertrektijd" VerticalAlignment="Top" Margin="10,0,0,0"/>
+        	</Grid>
+        	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="08:30" VerticalAlignment="Top" Margin="0,129,0,0"/>
+        	<TextBlock HorizontalAlignment="Left" Margin="116,129,0,0" TextWrapping="Wrap" Text="12:00" VerticalAlignment="Top"/>
+        	<TextBlock HorizontalAlignment="Left" Margin="251,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28">
+        		<Run Text="Groningen"/>
+        		<LineBreak/>
+        		<Run/>
+        	</TextBlock>
+        	<TextBlock HorizontalAlignment="Left" Margin="361,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Text="Assen"/>
+        	<Button Content="More" HorizontalAlignment="Left" Height="73" Margin="160,156,0,0" VerticalAlignment="Top" Width="137"/>
         </Grid>
     </Grid>
 

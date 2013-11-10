@@ -33,16 +33,12 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
         	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Locaties" VerticalAlignment="Top" Height="29" Margin="169,0,0,0"/>
-        	<RichTextBox HorizontalAlignment="Left" Height="28" Margin="112,29,0,0" VerticalAlignment="Top" Width="185">
-        		<Paragraph>
-        			<Run Text="Van"/>
-        		</Paragraph>
-        	</RichTextBox>
-        	<RichTextBox HorizontalAlignment="Left" Height="28" Margin="112,57,0,0" VerticalAlignment="Top" Width="185">
-        		<Paragraph>
-        			<Run Text="Naar"/>
-        		</Paragraph>
-        	</RichTextBox>
+        	<TextBox HorizontalAlignment="Left" Height="75" Margin="94,34,0,0" TextWrapping="Wrap" Text="Van" VerticalAlignment="Top" Width="268"/>
+        	<TextBox HorizontalAlignment="Left" Height="70" Margin="94,109,0,0" TextWrapping="Wrap" Text="Naar" VerticalAlignment="Top" Width="268"/>
+        	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Vertrektijd" VerticalAlignment="Top" Height="29" Margin="169,184,0,0"/>
+        	<TextBox HorizontalAlignment="Left" Height="75" Margin="94,213,0,0" TextWrapping="Wrap" Text="Tijdstip" VerticalAlignment="Top" Width="268"/>
+        	<TextBox HorizontalAlignment="Left" Height="70" Margin="94,288,0,0" TextWrapping="Wrap" Text="Datum" VerticalAlignment="Top" Width="268"/>
+        	<Button Content="OK" HorizontalAlignment="Left" Height="68" Margin="327,443,0,0" VerticalAlignment="Top" Width="119"/>
 
         </Grid>
     </Grid>
