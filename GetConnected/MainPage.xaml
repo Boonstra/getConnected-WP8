@@ -52,6 +52,7 @@
             <Button Content="{Binding LocalizedResources.MarketplaceButton, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="49,237,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="MarketplaceButton"/>
             <Button Content="{Binding LocalizedResources.SupportButton, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="49,283,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345"/>
             <Button Content="{Binding LocalizedResources.HelpButton, Mode=OneWay, Source={StaticResource LocalizedStrings}}" Margin="49,329,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Button_Click_2"/>
+            <Button Content="Settings" Margin="49,375,0,0" VerticalAlignment="Top" Background="#FFA59292" HorizontalAlignment="Left" Width="345" Click="Settings"/>
 
         </Grid>
 

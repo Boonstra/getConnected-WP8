@@ -39,7 +39,11 @@ namespace GetConnected
 
         private void MarketplaceButton(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Marketplace.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Login.xaml", UriKind.Relative));
+        }
+        private void Settings(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Settings.xaml", UriKind.Relative));
         }
 
         // Sample code for building a localized ApplicationBar

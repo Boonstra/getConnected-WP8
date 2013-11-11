@@ -33,8 +33,8 @@
         	<TextBox HorizontalAlignment="Left" Height="71" Margin="0,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
         	<TextBlock HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="96" Margin="10,101,0,0"/>
         	<TextBox HorizontalAlignment="Left" Height="71" Margin="0,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
-        	<Button Content="Login" HorizontalAlignment="Left" Height="85" Margin="10,207,0,0" VerticalAlignment="Top" Width="142"/>
-        	<Button Content="Register" HorizontalAlignment="Left" Height="85" Margin="10,292,0,0" VerticalAlignment="Top" Width="142"/>
+            <Button Content="Login" HorizontalAlignment="Left" Height="85" Margin="10,207,0,0" VerticalAlignment="Top" Width="142" Click="Loginbutton"/>
+        	<Button Content="Register" HorizontalAlignment="Left" Height="85" Margin="10,292,0,0" VerticalAlignment="Top" Width="142" Click="Registerbutton"/>
 
         </Grid>
     </Grid>

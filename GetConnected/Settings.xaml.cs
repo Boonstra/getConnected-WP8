@@ -10,16 +10,11 @@ using Microsoft.Phone.Shell;
 
 namespace GetConnected
 {
-    public partial class Additional : PhoneApplicationPage
+    public partial class Settings : PhoneApplicationPage
     {
-        public Additional()
+        public Settings()
         {
             InitializeComponent();
-        }
-
-        private void Login(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/Login.xaml", UriKind.Relative));
         }
     }
 }

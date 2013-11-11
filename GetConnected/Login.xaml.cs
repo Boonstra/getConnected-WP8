@@ -16,5 +16,14 @@ namespace GetConnected
         {
             InitializeComponent();
         }
+        private void Loginbutton(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Marketplace.xaml", UriKind.Relative));
+        }
+
+        private void Registerbutton(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Register.xaml", UriKind.Relative));
+        }
     }
 }
