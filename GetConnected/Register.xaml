@@ -22,14 +22,23 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="Get Connected" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="Register" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        	<TextBox HorizontalAlignment="Left" Height="74" Margin="0,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456"/>
+        	<TextBox HorizontalAlignment="Left" Height="74" Margin="0,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456"/>
+        	<TextBox HorizontalAlignment="Left" Height="74" Margin="0,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456"/>
+        	<TextBox HorizontalAlignment="Left" Height="74" Margin="0,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456"/>
+        	<Button Content="Ok" HorizontalAlignment="Left" Height="83" Margin="297,514,0,0" VerticalAlignment="Top" Width="159"/>
 
         </Grid>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="25,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="91"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="25,98,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="91"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="25,196,0,0" Grid.Row="1" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top" Width="91"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="25,294,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Telephone number" VerticalAlignment="Top" Width="172"/>
     </Grid>
 
 </phone:PhoneApplicationPage>
