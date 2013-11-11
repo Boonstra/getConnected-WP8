@@ -37,14 +37,10 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Margin="14,151,10,10" Grid.RowSpan="3">
         	<Grid HorizontalAlignment="Left" Height="125" Margin="-10,104,0,0" VerticalAlignment="Top" Width="456">
-        		<TextBlock HorizontalAlignment="Left" Margin="125,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top">
-        			<Run Text="Aan"/>
-        			<Run Text="k"/>
-        			<Run Text="omsttijd"/>
-        		</TextBlock>
-        		<TextBlock HorizontalAlignment="Left" Margin="262,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Van"/>
-        		<TextBlock HorizontalAlignment="Left" Margin="370,0,0,98" TextWrapping="Wrap" VerticalAlignment="Bottom" Text="Naar" RenderTransformOrigin="0.5,0.515"/>
-        		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Vertrektijd" VerticalAlignment="Top" Margin="10,0,0,0"/>
+        		<TextBlock HorizontalAlignment="Left" Margin="125,0,0,98" TextWrapping="Wrap" VerticalAlignment="Bottom" Text="Arrival"/>
+        		<TextBlock HorizontalAlignment="Left" Margin="262,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="From"/>
+        		<TextBlock HorizontalAlignment="Left" Margin="370,-26,-20,98" TextWrapping="Wrap" VerticalAlignment="Bottom" Text="Destination" RenderTransformOrigin="0.5,0.515" Width="106"/>
+        		<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Departure" VerticalAlignment="Top" Margin="10,0,0,0"/>
         	</Grid>
         	<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="08:30" VerticalAlignment="Top" Margin="0,129,0,0"/>
         	<TextBlock HorizontalAlignment="Left" Margin="116,129,0,0" TextWrapping="Wrap" Text="12:00" VerticalAlignment="Top"/>
@@ -55,6 +51,7 @@
         	</TextBlock>
         	<TextBlock HorizontalAlignment="Left" Margin="361,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Text="Assen"/>
         	<Button Content="More" HorizontalAlignment="Left" Height="73" Margin="160,156,0,0" VerticalAlignment="Top" Width="137"/>
+        	<Button Content="Change Date" HorizontalAlignment="Left" Height="73" Margin="251,31,0,0" VerticalAlignment="Top" Width="205"/>
         </Grid>
     </Grid>
 

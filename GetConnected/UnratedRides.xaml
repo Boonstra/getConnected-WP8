@@ -22,14 +22,27 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="Get Connected" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Height="98">
+            	<Run Text="Unrated Rides"/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
+        	<TextBlock HorizontalAlignment="Left" Height="38" Margin="0,50,0,0" TextWrapping="Wrap" Text="2013-06-08 11:15" VerticalAlignment="Top" Width="153"/>
+        	<TextBlock HorizontalAlignment="Left" Height="31" Margin="171,50,0,0" TextWrapping="Wrap" Text="r" VerticalAlignment="Top" Width="19"/>
+        	<TextBlock HorizontalAlignment="Left" Height="26" Margin="232,50,0,0" TextWrapping="Wrap" Text="Template_user" VerticalAlignment="Top" Width="137"/>
+        	<TextBlock HorizontalAlignment="Left" Height="31" Margin="374,50,0,0" TextWrapping="Wrap" Text="m" VerticalAlignment="Top" Width="19"/>
+        	<Button Content="Rate" HorizontalAlignment="Left" Height="71" Margin="158,76,0,0" VerticalAlignment="Top" Width="138"/>
         </Grid>
+        <Rectangle Fill="#FF36363A" HorizontalAlignment="Left" Height="41" Margin="-15,10,-18,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="513"/>
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="12,12,0,0" Grid.Row="1" TextWrapping="Wrap" Text="End time" VerticalAlignment="Top" Width="95"/>
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="177,12,0,0" TextWrapping="Wrap" Text="Role" VerticalAlignment="Top" Width="42" RenderTransformOrigin="0.471,0.353" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="379,12,0,0" TextWrapping="Wrap" Text="Gender" VerticalAlignment="Top" Width="77" RenderTransformOrigin="0.471,0.353" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="243,12,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="95" RenderTransformOrigin="0.471,0.353" Grid.Row="1"/>
     </Grid>
 
 </phone:PhoneApplicationPage>
